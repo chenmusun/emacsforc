@@ -152,4 +152,7 @@
 (global-semantic-idle-scheduler-mode 1)
 (semantic-mode 1)
 
+(require 'window-numbering)
+(window-numbering-mode 1)
+
 (message "Ready to play!")
